@@ -1,0 +1,10 @@
+body{
+
+    background-color: pink;
+}
+/*该部分仅适用于视口大于30em的浏览器。如果浏览器的宽度大于30em，则背景色将为蓝色。*/
+@media(min-width:30em){
+    body{
+        background-color: blue;
+    }
+}
