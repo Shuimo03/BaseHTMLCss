@@ -1,0 +1,12 @@
+span.highlight{
+
+    background-color: yellow;
+}
+strong.highlight{
+    background-color: currentColor;
+}
+h1.highlight{
+
+    background-color: pink;
+}
+

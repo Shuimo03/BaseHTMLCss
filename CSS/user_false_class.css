@@ -1,0 +1,21 @@
+a:link,
+a:visited{
+    color: rebeccapurple;
+    font-weight: bold;
+}
+
+a:hover{
+    color: hotpink;
+}
+
+a:active{
+    color: aquamarine;
+}
+
+p:focus{
+    color: bisque;
+}
+input:focus{
+    font-size: 300px;
+    background-color: black;
+}

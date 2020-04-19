@@ -1,0 +1,9 @@
+.box::before{
+    content: "This should show before the other content.";
+}
+.box1::after{
+    content: "This should show after the other content.";
+}
+.logo::after{
+    content: "➥";
+}

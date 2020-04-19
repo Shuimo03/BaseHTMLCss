@@ -1,0 +1,11 @@
+/* article p::first-line{
+    font-size: 120%;
+    font-weight: bold;
+} */
+
+/**伪元素和伪类结合**/
+article p:first-child::first-line{
+
+    font-size: 120%;
+    font-weight: bold;
+}
