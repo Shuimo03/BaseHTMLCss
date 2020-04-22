@@ -1,0 +1,7 @@
+.box{
+    background-image: url(../images/balloons.jpg);
+    background-repeat:no-repeat;
+    background-size: contain;
+    height: 500px;
+    width: 500px;
+}

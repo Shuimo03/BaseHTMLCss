@@ -1,0 +1,20 @@
+.box{
+
+    border: 5px solid rebeccapurple;
+    background-color: lightgray;
+    padding: 40px;
+    margin: 40px;
+    width: 300px;
+    height: 150px;
+}
+
+.alternate{
+    box-sizing: border-box; /*替代模型*/
+    width: 390px;
+    height: 240px;
+}
+
+/*标准宽度:300+40+40+5+5 = 390*/
+/*标准高度:150+40+40+5+5 = 240*/
+/*标准宽度计算公式:width+margin+padding+border*2*/
+/*标准高度计算公式:height+margin+padding+border*2*/

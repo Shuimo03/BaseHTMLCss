@@ -1,0 +1,6 @@
+.box{
+
+    background-image: url(../images/balloons.jpg),url(../images/firefox-icon.png);
+    width: 800px;
+    height: 800px;
+}

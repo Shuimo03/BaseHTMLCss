@@ -1,0 +1,19 @@
+/*线性梯度*/
+.a{
+    background-image: linear-gradient(105deg,rgba(0,246,255,1) 39%,rgba(51,56,57,1) 96%);
+    width: 500px;
+    height: 500px;
+}
+/*径向梯度，它有一个固定的大小，因此会重复*/
+.b{
+    background-image: radial-gradient(circle,rgba(0,249,255,1) 39%,rgba(51,56,57,1)96%);
+    background-size: 100px 50px;
+    width: 500px;
+    height: 500px;
+}
+
+.wrapper{
+    width: 600px;
+    height: 600px;
+}
+

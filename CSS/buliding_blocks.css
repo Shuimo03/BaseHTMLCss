@@ -1,0 +1,11 @@
+.horizontal{
+    writing-mode: horizontal-tb;
+    border:5px solid black;
+}
+
+.vertical{
+    writing-mode: vertical-rl;
+    border:5px solid black;
+    padding: 10px;
+    margin: 10px;
+}
