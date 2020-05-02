@@ -1,0 +1,11 @@
+.box{
+
+    height: 300px;
+    width: 400px;
+    background-image: url(../images/star.png);
+    background-repeat: no-repeat;
+    background-position: right 40px;
+    border: 15px solid slateblue;
+    background-color: azure;
+    border-radius: 2em;
+}

@@ -1,0 +1,12 @@
+.box.one{
+    background-color: rgb(2, 121, 139);
+    border: 10px solid black;
+}
+.box.two{
+    background-color: rgb(197, 93, 161);
+    border: 10px solid black;
+}
+.box.three{
+    background-color: rgb(18, 138, 125);
+    border: 10px solid black;
+}

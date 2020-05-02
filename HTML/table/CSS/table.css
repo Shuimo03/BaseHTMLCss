@@ -1,0 +1,14 @@
+.title{
+    background-color: #bdbdbd;
+}
+td{
+    width: 200px;
+}
+th{
+    background-color: #bdbdbd;
+    
+}
+
+table{
+    border: 1px solid black;
+}

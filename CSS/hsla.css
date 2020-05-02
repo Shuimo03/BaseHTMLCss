@@ -1,0 +1,16 @@
+.box.one{
+    background-color: hsla(188, 97%, 28%, .3);
+    border: 20px solid  beige;
+    border-radius: 15px;
+}
+
+.box.two{
+    background-color: hsla(321 47%, 57%, .7);
+    border: 20px solid  hotpink;
+    border-radius: 15px;
+}
+.box.three{
+    background-color: hsla(174, 77%, 31%, .9);
+    border: 20px solid  brown;
+    border-radius: 15px;
+}

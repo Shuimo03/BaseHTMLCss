@@ -1,0 +1,23 @@
+.box{
+
+    border: 1px solid #333333;
+    width: 200px;
+    height: 100px;
+    overflow: scroll; /*默认是有两个方向的滚动条*/
+}
+
+.overflow_y{
+    
+    border:1px solid #333333;
+    width: 200px;
+    height: 100px;
+    overflow-y: scroll;
+}
+
+.overflow_x{
+
+    border:1px solid #333333;
+    width: 200px;
+    height: 100px;
+    overflow-x:scroll;
+}
