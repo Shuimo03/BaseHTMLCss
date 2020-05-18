@@ -1,0 +1,32 @@
+.wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    grid-gap: 10px;
+}
+
+.box1{
+    border: solid 10px white;
+    background-color: aquamarine;
+}
+
+.box2{
+    border: solid 10px white;
+    background-color: aquamarine;
+}
+.box3{
+    border: solid 10px white;
+    background-color: aquamarine;
+}
+.box4{
+    border: solid 10px white;
+    background-color: aquamarine;
+}
+.box5{
+    border: solid 10px white;
+    background-color: aquamarine;
+}
+.box6{
+    border: solid 10px white;
+    background-color: aquamarine;
+}

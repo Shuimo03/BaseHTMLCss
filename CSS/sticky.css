@@ -1,0 +1,7 @@
+.positioned{
+    position: sticky;
+    top: 30px;
+    left: 30px;
+    background: rgba(255, 84, 104, .3);
+    border: 2px solid rgb(2555, 84, 104);
+}

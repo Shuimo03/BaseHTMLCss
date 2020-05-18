@@ -1,0 +1,15 @@
+.positioned{
+    position: absolute;
+    background: rgba(255, 84, 104, .3);
+    border: 2px solid rgb(2555, 84, 104);
+    top: 30px;
+    left: 30px;
+}
+
+p{
+    background-color: rgb(207, 232, 220);
+    border: 2px solid rgb(79, 185, 227);
+    margin: 10px;
+    border-radius: 5px;
+}
+

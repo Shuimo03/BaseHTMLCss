@@ -1,0 +1,22 @@
+html{
+    font-family: sans-serif;
+}
+
+form{
+    display: table;
+    margin: 0 auto;
+}
+
+form div{
+    display: table-row;
+}
+
+form label,form input{
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+form label{
+    width: 200px;
+    
+}
