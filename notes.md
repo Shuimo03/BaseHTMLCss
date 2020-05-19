@@ -33,5 +33,31 @@
 4. 固定定位：与绝对定位非常类似，但是它是将一个元素相对浏览器视口固定，而不是相对另外一个元素。 这在创建类似在整个页面滚动过程中总是处于屏幕的某个位置的导航菜单时非常有用。
 5. 粘性定位：是一种新的定位方式，它会让元素先保持和`position: static`一样的定位，当它的相对视口位置(offset from the viewport)达到某一个预设值时，他就会像`position: fixed`一样定位,它将默认的静态定位(static positioning)和固定定位(fixed positioning)相混合。
 
+## 表格布局
 
+表格布局的缺点在于不够灵活，繁重的标记，难以调试和语义上的错误（比如，屏幕阅读器用户在导航表布局方面有问题）。
+
+## 多列布局
+
+多列布局模组给了我们 一种把内容按列排序的方式，就像文本在报纸上排列那样。由于在web内容里让你的用户在一个列上通过上下滚动来阅读两篇相关的文本是一种非常低效的方式，那么把内容排列成多列可能是一种有用的技术。
+
+要把一个块转变成多列容器(multicol container)，我们可以使用 [`column-count`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/column-count)属性来告诉浏览器我们需要多少列，也可以使用[`column-width`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/column-width)来告诉浏览器以至少某个宽度的尽可能多的列来填充容器。
+
+### 改变多列样式
+
+1. 使用 [`column-gap`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/column-gap) 改变列间间隙。
+2. 用 [`column-rule`](https://developer.mozilla.org/zh-CN/docs/Web/CSS/column-rule) 在列间加入一条分割线。
+
+### 液态网络
+
+液态网络属于弹性的网格，随着浏览器的iewport大小的变化自动伸缩。为了达成这个目标，需要把
+
+固定宽度转为伸缩的基于百分比宽度的算式
+
+```
+target / context = result
+假设目标列长度是60像素，上下文是960像素，可以这样计算百分比
+60 / 960 = 0.0625
+然后移动小数点后两位，得到百分数6/25%
+```
 
